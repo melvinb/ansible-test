@@ -1,5 +1,6 @@
 ---
 - name: Windows ping test
+  hosts: dwn-server
   
   tasks:
     - name: Example Ansible Playbook with win_ping module
