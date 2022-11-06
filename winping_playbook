@@ -1,0 +1,6 @@
+---
+- name: Windows Baseline ping
+  
+  tasks:
+    - name: Example Ansible Playbook with win_ping module
+      win_ping:
