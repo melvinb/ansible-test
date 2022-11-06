@@ -1,5 +1,5 @@
 ---
-- name: Windows Baseline ping
+- name: Windows ping test
   
   tasks:
     - name: Example Ansible Playbook with win_ping module
