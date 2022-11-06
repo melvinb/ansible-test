@@ -1,5 +1,7 @@
 ---
-hosts: all
-
-- name: Example Ansible Playbook with ping module
-  ansible.builtin.ping:
+- name: Windows Baseline Bolletje
+  hosts: ubnt-docker
+  
+  tasks:
+    - name: Example Ansible Playbook with ping module
+      ansible.builtin.ping:
