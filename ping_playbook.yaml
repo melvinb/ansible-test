@@ -1,6 +1,6 @@
 ---
 - name: Ping test
-  
+  hosts: '{{ host }}'
   tasks:
     - name: Example Ansible Playbook with ping module
       ansible.builtin.ping:
