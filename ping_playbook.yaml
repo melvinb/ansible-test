@@ -1,6 +1,5 @@
 ---
-- name: Windows Baseline Bolletje
-  hosts: ubnt-docker
+- name: Ping test
   
   tasks:
     - name: Example Ansible Playbook with ping module
