@@ -1,0 +1,5 @@
+---
+hosts: all
+
+- name: Example Ansible Playbook with ping module
+  ansible.builtin.ping:
